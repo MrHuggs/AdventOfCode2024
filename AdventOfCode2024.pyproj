@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d30a4418-8213-49c3-b16e-99777de3b45a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Day2.py</StartupFile>
+    <StartupFile>Day3_pt2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,10 +24,13 @@
     <Compile Include="AdventOfCode2024.py" />
     <Compile Include="Day1.py" />
     <Compile Include="Day2.py" />
+    <Compile Include="Day3_pt2.py" />
+    <Compile Include="Day3.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Day1_input.txt" />
     <Content Include="Day2_input.txt" />
+    <Content Include="Day3_input.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
