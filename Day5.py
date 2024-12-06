@@ -89,7 +89,7 @@ for pages in updates:
         swap_error(pages)
 
         if are_pages_correct(pages):
-            break;
+            break
 
     print("Fixed pages:", pages)
     fixed_total += pages[len(pages)//2]
