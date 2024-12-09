@@ -43,27 +43,9 @@ def coalsce():
 
 
         blocks[index] = (-1, new_len)
-
         del blocks[index + 1]
 
-        #print("Coalesced at index ", index)
 
-
-def print_blocks():
-    
-    s = ""
-
-    for block in blocks:
-
-        if block[0] >= 0:
-            c = str(block[0])
-        else:
-            c = '.'
-
-        for i in range(block[1]):
-            s += c
-
-    print(s)
 
 
 def compact():
@@ -111,10 +93,10 @@ def compact():
 
         blocks.insert(fs_block_index, (fid, blen))
 
-        print("Moved ", fid)
-        #print_blocks()
+        print ("Moved {0} of {1}.".format(nfiles- fid + 1, nfiles))
+
         coalsce()
-        #print_blocks()
+
 
 def checksum():
 
@@ -131,11 +113,6 @@ def checksum():
 
     return cs
 
-
-#print_blocks()
-
 compact()
-
-#print_blocks()
 
 print("Checksum:", checksum())
