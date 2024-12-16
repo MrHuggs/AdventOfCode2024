@@ -29,6 +29,12 @@
     <Compile Include="Day12_pt2.py" />
     <Compile Include="Day12.py" />
     <Compile Include="Day13.py" />
+    <Compile Include="Day14.py" />
+    <Compile Include="Day14_pt2.py" />
+    <Compile Include="Day15.py" />
+    <Compile Include="Day15_pt2.py" />
+    <Compile Include="Day16.py" />
+    <Compile Include="Day16_pt2.py" />
     <Compile Include="Day4_pt2.py" />
     <Compile Include="Day4.py" />
     <Compile Include="Day1.py" />
@@ -50,6 +56,9 @@
     <Content Include="Day11_input.txt" />
     <Content Include="Day12_input.txt" />
     <Content Include="Day13_input.txt" />
+    <Content Include="Day14_input.txt" />
+    <Content Include="Day15_input.txt" />
+    <Content Include="Day16_input.txt" />
     <Content Include="Day1_input.txt" />
     <Content Include="Day2_input.txt" />
     <Content Include="Day3_input.txt" />
