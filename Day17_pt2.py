@@ -90,7 +90,7 @@ def run(A, B, C, program):
 bits = 3
 bitmask = (1 << bits) - 1
 pc = len(_program)
-parts = [bitmask] * pc
+parts = [0] * pc
 
 
 def combine(parts):
@@ -104,9 +104,9 @@ def combine(parts):
 
 def next_combo(parts, which):
     
-    while parts[pc - 1 - which] == 0:
+    while parts[pc - 1 - which] == bitmask:
 
-        parts[pc - 1 - which] = bitmask
+        parts[pc - 1 - which] = 0
         which += 1
 
         if which == pc:
@@ -114,15 +114,15 @@ def next_combo(parts, which):
 
 
 
-    parts[pc - 1 - which] -= 1
+    parts[pc - 1 - which] += 1
 
     return True, parts, which
 
-
 which_op = pc - 1
+
+
+
 while True:
-
-
 
         test_a = combine(parts)
         output = run(test_a, _B, _C, _program)
@@ -135,6 +135,7 @@ while True:
             if which_op < 0:
                 print("Success: ", test_a)
                 break
+            continue
 
         success, parts, which_op = next_combo(parts, which_op)
 
