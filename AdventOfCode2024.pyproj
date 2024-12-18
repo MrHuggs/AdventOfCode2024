@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d30a4418-8213-49c3-b16e-99777de3b45a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Day_17_pt2_chatgpt.py</StartupFile>
+    <StartupFile>Day18_pt2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -38,6 +38,8 @@
     <Compile Include="Day17_pt2.py" />
     <Compile Include="Day17.py" />
     <Compile Include="Day17_scratch.py" />
+    <Compile Include="Day18_pt2.py" />
+    <Compile Include="Day18.py" />
     <Compile Include="Day4_pt2.py" />
     <Compile Include="Day4.py" />
     <Compile Include="Day1.py" />
@@ -65,6 +67,7 @@
     <Content Include="Day15_input.txt" />
     <Content Include="Day16_input.txt" />
     <Content Include="Day17_input.txt" />
+    <Content Include="Day18_input.txt" />
     <Content Include="Day1_input.txt" />
     <Content Include="Day2_input.txt" />
     <Content Include="Day3_input.txt" />
