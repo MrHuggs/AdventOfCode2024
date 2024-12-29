@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d30a4418-8213-49c3-b16e-99777de3b45a</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Day25.py</StartupFile>
+    <StartupFile>Day21\pt2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -44,6 +44,15 @@
     <Compile Include="Day19.py" />
     <Compile Include="Day20_pt2.py" />
     <Compile Include="Day20.py" />
+    <Compile Include="Day21\Common.py" />
+    <Compile Include="Day21\Debug.py" />
+    <Compile Include="Day21\PathTableStub.py" />
+    <Compile Include="Day21\PathTest.py" />
+    <Compile Include="Day21\pt1.py" />
+    <Compile Include="Day21\pt2.py" />
+    <Compile Include="Day21\Test_379A.py" />
+    <Compile Include="Day21\NumPadScratchTest.py" />
+    <Compile Include="Day21\Test_86.py" />
     <Compile Include="Day21_pt2_naive.py" />
     <Compile Include="Day21_pt2.py" />
     <Compile Include="Day21.py" />
@@ -85,6 +94,7 @@
     <Content Include="Day19_input.txt" />
     <Content Include="Day1_input.txt" />
     <Content Include="Day20_input.txt" />
+    <Content Include="Day21\Input.txt" />
     <Content Include="Day21_input.txt" />
     <Content Include="Day22_input.txt" />
     <Content Include="Day23_input.txt" />
@@ -98,6 +108,9 @@
     <Content Include="Day7_Input.txt" />
     <Content Include="Day8_input.txt" />
     <Content Include="Day9_input.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Day21\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
